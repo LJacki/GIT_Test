@@ -53,3 +53,21 @@ git push -u origin master //把本地库的所有内容推送到远程库上
 ————————————————
 版权声明：本文为CSDN博主「光仔December」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/acmman/article/details/77621253
+
+
+
+git branch
+查看分支
+
+git checkout name
+跳转到分支
+
+git merge name
+合并分支
+
+git branch -d name
+删除分支
+
+git status
+查看因包含合并冲突而处于未合并状态的文件；
+
