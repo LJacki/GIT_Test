@@ -678,7 +678,11 @@ If you are sure you want to delete it, run 'git branch -D testing'.
 
 如果真的想要删除分支并丢掉那些工作，如同帮助信息里所指出的，可以使用 `-D` 选项强制删除它。
 
+## gitignore
 
+https://www.shikexu.com/archives/844
+
+在根目录中添加`.gitignore`文件，并且在文件中写入需要忽略的文件夹名称即可；
 
 
 
@@ -719,4 +723,3 @@ If you are sure you want to delete it, run 'git branch -D testing'.
 
 
 ..
-
