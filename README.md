@@ -690,7 +690,18 @@ xx更新文件内容；
 
 ## 2020-08-25
 
-在网页端，以master分支的权限，修改了内容，而此时客户端，使用atom_barnch分支也修改了内容。
+测试新建分支跟主分支的关系；
 
-master先提交操作；
-..
+新建了一个atom_branch，修改了atom_branch的内容；
+
+master进行了修改，commit，push；
+
+atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
+
+![image-20200825092801947](README.assets/image-20200825092801947.png)
+
+使用Git bash进行了merge，再次在atom的时候就会看到conflict，需要手动选择使用哪个版本；
+
+![image-20200825105036452](README.assets/image-20200825105036452.png)
+
+![image-20200825105039776](README.assets/image-20200825105039776.png)
