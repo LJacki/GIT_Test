@@ -710,3 +710,6 @@ atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 
 ![image-20200825105904395](README.assets/image-20200825105904395.png)
 
+### xiaoming
+
+这里是xiaoming的branch，进行了xiaoming的内容修改；
