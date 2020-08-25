@@ -688,40 +688,14 @@ https://www.shikexu.com/archives/844
 
 xx更新文件内容；
 
+## 2020-08-25
 
+测试新建分支跟主分支的关系；
 
+新建了一个atom_branch，修改了atom_branch的内容；
 
+master进行了修改，commit，push；
 
+atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-..
+![image-20200825092801947](README.assets/image-20200825092801947.png)
