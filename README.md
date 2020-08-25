@@ -699,3 +699,7 @@ master进行了修改，commit，push；
 atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 
 ![image-20200825092801947](README.assets/image-20200825092801947.png)
+
+### atom_branch
+
+这里是atom_branch，修改了atom_barnch的内容；先进行commit
