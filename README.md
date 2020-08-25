@@ -705,3 +705,8 @@ atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 ![image-20200825105036452](README.assets/image-20200825105036452.png)
 
 ![image-20200825105039776](README.assets/image-20200825105039776.png)
+
+在GIT Bash进行merge操作，会提示如下信息：
+
+![image-20200825105904395](README.assets/image-20200825105904395.png)
+
