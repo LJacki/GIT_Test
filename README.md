@@ -716,3 +716,11 @@ atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 ### xiaoming
 
 这里是xiaoming的branch，进行了xiaoming的内容修改；
+
+### 总结
+
+在两次branch的修改中，可以选择保留两次的修改内容：
+
+![image-20200825112934072](README.assets/image-20200825112934072.png)
+
+这样，就可以完成保留两次修改；
