@@ -713,3 +713,6 @@ atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 ### atom_branch
 
 这里是atom_branch，修改了atom_barnch的内容；先进行commit
+### xiaoming
+
+这里是xiaoming的branch，进行了xiaoming的内容修改；
