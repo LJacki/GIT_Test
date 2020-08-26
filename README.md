@@ -724,3 +724,41 @@ atom_branch fetch 到了改动信息，在pull的时候失败，提示内容：
 ![image-20200825112934072](README.assets/image-20200825112934072.png)
 
 这样，就可以完成保留两次修改；
+
+## 更新分支到本地
+
+下一次其他协作者从服务器上抓取数据时，他们会在本地生成一个远程分支 `origin/serverfix`，指向服务器的 `serverfix` 分支的引用：
+
+```console
+$ git fetch origin
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/schacon/simplegit
+ * [new branch]      serverfix    -> origin/serverfix
+```
+
+要特别注意的一点是当抓取到新的远程跟踪分支时，本地不会自动生成一份可编辑的副本（拷贝）。 换一句话说，这种情况下，不会有一个新的 `serverfix` 分支——只有一个不可以修改的 `origin/serverfix` 指针。
+
+可以运行 `git merge origin/serverfix` 将这些工作合并到当前所在的分支。 如果想要在自己的 `serverfix` 分支上工作，可以将其建立在远程跟踪分支之上：
+
+```console
+$ git checkout -b serverfix origin/serverfix
+Branch serverfix set up to track remote branch serverfix from origin.
+Switched to a new branch 'serverfix'
+```
+
+这会给你一个用于工作的本地分支，并且起点位于 `origin/serverfix`。
+
+总结起来，两条指令：
+
+```git
+git fetch origin
+git checkout -b <local_branch> origin/<branch>
+```
+
+两句话的意思分别为，更新远端的文件；
+
+将远端的branch同步到本地；
+
