@@ -762,3 +762,9 @@ git checkout -b <local_branch> origin/<branch>
 
 将远端的branch同步到本地；
 
+## 回溯到某一次提交
+
+现在做一个测试，本次内容为想要回溯到某一次提交。
+
+这里是正常写入的内容，并提交。
+
