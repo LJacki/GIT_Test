@@ -58,7 +58,7 @@ git add . //不但可以跟单一文件，还可以跟通配符，更可以跟�
 git commit -m "first commit" //把文件提交到仓库
 git remote add origin git@github.com:yourname/youremail.git //关联远程仓库
 git push -u origin master //把本地库的所有内容推送到远程库上
-————————————————
+------------------------------------------------
 版权声明：本文为CSDN博主「光仔December」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/acmman/article/details/77621253
 
@@ -766,5 +766,7 @@ git checkout -b <local_branch> origin/<branch>
 
 现在做一个测试，本次内容为想要回溯到某一次提交。
 
-这里是正常写入的内容，并提交。
+这里是正常写入的内容，并提交。（这里会是需要回溯的内容）
+
+再次添加内容。
 
