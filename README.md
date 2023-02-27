@@ -771,3 +771,12 @@ git checkout -b <local_branch> origin/<branch>
 再次添加内容。
 
 还需要在更新一次；
+  
+## 输入一次保存密码
+```git
+
+git config --global credential.helper store
+
+[credential]
+        helper = store
+```
